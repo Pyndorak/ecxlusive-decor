@@ -9,9 +9,11 @@
 .choise h3, img {
     margin-top: 2rem;
 }
-.menu {
-    font-size: 1.4rem;
-}
-.nav a {
-    color: ce94a3;
+
+
+.navbar {
+  padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    background-color: #ce94a3;
 }
