@@ -18,10 +18,12 @@ body {
 .menu {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 2rem;
     font-weight: bold;
 }
-
+.fas {
+    font-size: 25px;
+    color: #ce94a3;
+}
 .navbar {
     padding: 0;
     margin: 0;
@@ -30,8 +32,13 @@ body {
 }
 
 .footer {
-    margin: 40 px;
     text-align: center;
     font-weight: bold;
     background-color: #e9e8e6;
+}
+.footer .fas{
+    margin-top: 35px;
+}
+span {
+    color: #5d5f63;
 }

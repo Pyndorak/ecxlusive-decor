@@ -2,7 +2,6 @@
 .menu {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 2rem;
 }
 
 .menu,
@@ -153,5 +152,9 @@ img {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
-
 /*Reviews*/
+@media only screen and (max-width: 767px) {
+    .footer .emblem {
+        display: none;
+    }
+}
