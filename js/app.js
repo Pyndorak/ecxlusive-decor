@@ -22,3 +22,17 @@ $(document).ready(function() {
         }
     });
 });
+/*Main Slider*/
+$(document).ready(function() {
+    $('.thing').slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        speed: 4000,
+        autoplaySpeed: 900,
+        fade: true
+
+
+    });
+
+});

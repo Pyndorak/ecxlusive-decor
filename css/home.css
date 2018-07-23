@@ -35,14 +35,36 @@ h3 {
 
 .choise h3,
 img {
-    margin-top: 2rem;
+    margin-top: 10px;
 }
+
+
+/*Main Slider */
+
+#wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.imgslide {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #wrapper,
+    .imgslide {
+        display: none;
+    }
+}
+
+
+/*Main Slider */
 
 
 /*Reviews*/
 
 .container-main {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .text h1 {
@@ -56,12 +78,6 @@ img {
 
 .card img {
     margin-top: -50px;
-    width: 30%;
-    height: 30%;
-}
-
-.rev {
-    margin-top: 20px;
 }
 
 .card h4 {
@@ -69,6 +85,7 @@ img {
 }
 
 .card p {
+    text-align: center;
     font-size: 20px;
     font-style: italic;
     padding: 10px;
@@ -132,27 +149,27 @@ img {
 }
 
 .prev {
-    border-radius: 20px;
     width: 20px;
-    margin-left: -10px;
+    margin-left: -5px;
     color: black;
 }
 
 .next {
-    border-radius: 20px;
     width: 20px;
-    margin-right: -10px;
+    margin-right: -5px;
 }
 
-.carousel-control-prev-icon {
+.previous-cards {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
 }
 
-.carousel-control-next-icon {
+.next-cards {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
+
 /*Reviews*/
+
 @media only screen and (max-width: 767px) {
     .footer .emblem {
         display: none;
