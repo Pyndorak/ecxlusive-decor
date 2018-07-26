@@ -1,13 +1,21 @@
 .cards {
     transition: box-shadow .25s;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 5px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-.cards .card-image img {
-    margin: 30px;
+.cards-img-top {
+
+    transition: box-shadow .25s;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.16);
 }
-.cards .card-content {
-    margin: 30px;
+
+.cards-text {
+    text-align: left;
+    padding: 20px 20px;
+}
+.fa {
+    margin-left: 35px;
+    color: #5d5f63;
 }
