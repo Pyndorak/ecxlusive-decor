@@ -1,0 +1,43 @@
+
+.full-card {
+    text-align: center;
+    width: 300px;
+    margin: 50px 50px 50px 50px;
+    height: 230px;
+}
+.products{
+    text-align: center; 
+    margin: 50px;
+   
+}
+.full-card h3 {
+    text-align: center;
+}
+
+.list_for_phone {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+.list_for_phone a {
+    color: black;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .list_for_phone {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .list_for_phone {
+        display: inline-block;
+    }
+    .products {
+       display: none; 
+    }
+}
