@@ -42,30 +42,32 @@ img {
 /*Main Slider */
 
 #wrapper {
+    overflow: hidden;
     width: 1000px;
     margin: 0 auto;
 }
 
 .imgslide {
+    border-radius: 5px;
     height: 450px;
     width: 100%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
     #wrapper {
         width: 700px;
         margin: 0 auto;
     }
-    .imgslide {
-        height: 450px;
-        width: 100%;
-    }
 }
 
-@media only screen and (max-width: 767px) {
-    #wrapper,
+@media only screen and (max-width: 414px) {
+    #wrapper {
+        width: 315px;
+        margin: 0 auto;
+    }
     .imgslide {
-        display: none;
+        height: 200px;
+        width: 100%;
     }
 }
 
@@ -85,7 +87,6 @@ img {
 
 .card {
     margin-top: 50px;
-    border-radius: 20px;
 }
 
 .card img {
@@ -98,9 +99,9 @@ img {
 
 .card p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic;
-    padding: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 @media (min-width: 768px) {
@@ -172,10 +173,18 @@ img {
 }
 
 .previous-cards {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.previous-cards:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
 }
 
 .next-cards {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
+.next-cards:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
