@@ -61,7 +61,7 @@
         margin: 0 auto;
     }
     .imgslide {
-        height: 400px;
+        height: 45%;
         width: 100%;
     }
 }
@@ -72,7 +72,7 @@
         margin: 0 auto;
     }
     .imgslide {
-        height: 200px;
+        height: 50%;
         width: 100%;
     }
     .previous-cards {
