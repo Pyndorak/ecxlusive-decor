@@ -5,13 +5,11 @@
 }
 
 .menu,
-.choise h1,
-h3 {
+.choise h1 h3 {
     font-weight: bold;
 }
 
-.choise h3,
-img {
+.choise h3 img {
     margin-top: 2rem;
 }
 
@@ -25,17 +23,15 @@ img {
 .choise {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
-.choise h1,
-h3 {
+.choise h1 h3 {
     font-weight: bold;
 }
 
-.choise h3,
-img {
-    margin-top: 10px;
+.choise img {
+    margin-top: 50px;
 }
 
 
@@ -43,26 +39,36 @@ img {
 
 #wrapper {
     overflow: hidden;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
-}
+    }
 
 .imgslide {
     border-radius: 5px;
-    height: 450px;
+    height: 50%;
     width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
     #wrapper {
-        width: 700px;
+        width: 100%;
         margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .imgslide {
+        height: 400px;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 414px) {
     #wrapper {
-        width: 315px;
+        width: 100%;
         margin: 0 auto;
     }
     .imgslide {
@@ -72,6 +78,7 @@ img {
 }
 
 
+
 /*Main Slider */
 
 
@@ -79,14 +86,16 @@ img {
 
 .container-main {
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .text h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 .card {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .card img {
@@ -94,15 +103,18 @@ img {
 }
 
 .card h4 {
+    padding: 5px 0 0 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 .card p {
     text-align: center;
-    font-size: 15px;
+    font-size: 0.85em;
     font-style: italic;
     padding: 0px 10px 0px 10px;
 }
+
 
 @media (min-width: 768px) {
     /* show 3 items */
@@ -195,4 +207,9 @@ img {
     .footer .emblem {
         display: none;
     }
-}
+
+    #choise  p {
+      font-size: 0.75em; 
+    }
+    
+} 

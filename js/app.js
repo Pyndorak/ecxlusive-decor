@@ -28,7 +28,7 @@ $(document).ready(function() {
         dots: false,
         arrows: false,
         autoplay: true,
-        speed: 3000,
+        speed: 2000,
         autoplaySpeed: 900,
         fade: true,
 
