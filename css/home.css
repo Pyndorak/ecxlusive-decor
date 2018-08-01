@@ -45,7 +45,7 @@
 
 .imgslide {
     border-radius: 5px;
-    height: 45%;
+    height: 600px;
     width: 100%;
 }
 
@@ -61,7 +61,7 @@
         margin: 0 auto;
     }
     .imgslide {
-        height: 45%;
+        height: 50%;
         width: 100%;
     }
 }

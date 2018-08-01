@@ -7,7 +7,8 @@
 }
 .products{
     text-align: center; 
-    margin: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
    
 }
 .full-card h3 h5 a {
@@ -36,7 +37,7 @@
 @media only screen and (max-width: 768px) {
     .list_for_phone {
         display: inline-block;
-    }
+        }
     .products {
        display: none; 
     }
