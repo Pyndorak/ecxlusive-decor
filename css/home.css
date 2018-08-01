@@ -190,9 +190,3 @@ img {
 
 
 /*Reviews*/
-
-@media only screen and (max-width: 767px) {
-    .footer .emblem {
-        display: none;
-    }
-}

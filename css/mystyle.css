@@ -42,3 +42,8 @@ body {
 span {
     color: #5d5f63;
 }
+@media only screen and (max-width: 767px) {
+    .footer .emblem {
+        display: none;
+    }
+}
