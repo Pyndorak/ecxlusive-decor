@@ -41,7 +41,7 @@
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
-    }
+}
 
 .imgslide {
     border-radius: 5px;
@@ -55,6 +55,7 @@
         margin: 0 auto;
     }
 }
+
 @media only screen and (max-width: 768px) {
     #wrapper {
         width: 100%;
@@ -75,16 +76,7 @@
         height: 50%;
         width: 100%;
     }
-    .previous-cards {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
-    }
-           
-    .next-cards {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
-    }
-    
-    }
-
+}
 
 
 /*Main Slider */
@@ -94,7 +86,6 @@
 
 .container-main {
     margin-bottom: 20px;
-    margin-top: 50px;
 }
 
 .text h1 {
@@ -107,22 +98,25 @@
 }
 
 .card img {
-    margin-top: -50px;
+    margin-top: -80px;
 }
 
 .card h4 {
-    padding: 5px 0 0 5px;
+    padding: 2px 0 0 5px;
     text-align: center;
     font-weight: bold;
 }
 
 .card p {
     text-align: center;
-    font-size: 0.85em;
+    font-size: 0.60em;
     font-style: italic;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 5px 0px 0px;
 }
 
+.bl {
+    height: 200px;
+}
 
 @media (min-width: 768px) {
     /* show 3 items */
@@ -208,6 +202,15 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
+@media only screen and (max-width: 1024px) {
+    .previous-cards {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+    }
+    .next-cards {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+    }
+}
+
 
 /*Reviews*/
 
@@ -215,10 +218,7 @@
     .footer .emblem {
         display: none;
     }
-
-    #choise  p {
-      font-size: 0.75em; 
+    #choise p {
+        font-size: 0.75em;
     }
-    
-} 
-
+}
