@@ -32,6 +32,17 @@ body {
     background-color: #ce94a3;
 }
 
+.nav-tabs {
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+.nav-tabs .nav-item .nav-link {
+    -webkit-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: inherit;
+    color: #e9e8e6;
+}
+
 .footer {
     text-align: center;
     font-weight: bold;
