@@ -45,7 +45,7 @@
                     <a class="nav-link text-dark px-5" href="Products.html">Продукція</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active px-5" href="aboutme.html">Про мене</a>
+                    <a class="nav-link px-5" href="aboutme.html">Про мене</a>
                 </li>
             </ul>
         </div>
@@ -64,32 +64,40 @@
             </div>
             <div class="col-md-6">
                 <h4 class="text-center mt-3"><strong>Зв'яжіться з нами</strong></h4>
-                <form class="validateForm">
+                <form class='validateForm'>
                     <div class="form-group row">
-                        <label for="contact-name"><i class="fa fa-user prefix grey-text"></i></label>
+                        <div>
+                            <label for="contact-name"><i class="fa fa-user prefix grey-text"></i></label>
+                        </div>
                         <div class="col-sm-10">
-                            <input class="name form-control" id="contact-name" name="name" placeholder="Ваше ім'я.." type="text" onkeyup='validateName()'>
+                            <input class='names field form-control' id="contact-name" name="name" placeholder="Ваше ім'я.." type="text" onkeyup='validateName()'>
                             <span class='error-message' id='name-error'></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="contact-email"><i class="fa fa-envelope prefix grey-text"></i></label>
+                        <div>
+                            <label for="contact-email"><i class="fa fa-envelope prefix grey-text"></i></label>
+                        </div>
                         <div class="col-sm-10">
-                            <input class="form-control" id="contact-email" name="email" placeholder="example@gmail.com" type="email" onkeyup='validateEmail()'>
+                            <input class="email form-control field" id="contact-email" name="email" placeholder="example@gmail.com" type="text" onkeyup='validateEmail()'>
                             <span class='error-message' id='email-error'></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="contact-phone"><i class="fa fa-phone prefix grey-text"></i></label>
+                        <div>
+                            <label for="contact-phone"><i class="fa fa-phone prefix grey-text"></i></label>
+                        </div>
                         <div class="col-sm-10">
-                            <input class="form-control" id="contact-phone" name="phone" placeholder="38097***0***" type="text" maxlength="12" onkeyup='validatePhone()'>
+                            <input class="form-control phone field" id="contact-phone" name="phone" placeholder="38097***0***" type="text" maxlength="12" onkeyup='validatePhone()'>
                             <span class='error-message' id='phone-error'></span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="contact-message"><i class="fa fa-pencil-alt"></i></label>
+                        <div>
+                            <label for="contact-message"><i class="fa fa-pencil-alt"></i></label>
+                        </div>
                         <div class="col-sm-10">
-                            <textarea class="form-control" rows="5" id='contact-message'  name='message'  placeholder="Ваші побажання.."></textarea>
+                            <textarea class="form-control message field" rows="5" id='contact-message'  name='message'  placeholder="Ваші побажання.."></textarea>
                         </div>
                     </div>
                     <div class="form-group row">

@@ -1,4 +1,3 @@
-
 function validateName() {
     var name = document.getElementById('contact-name').value;
     if(name.length == 0) {
@@ -63,10 +62,30 @@ function validateEmail () {
 
 }
 
+var form = document.querySelector('.validateForm');
+var validateBtn = form.querySelector('.validateBtn');
+var names = form.querySelector('.names');
+var email = form.querySelector('.email');
+var phone = form.querySelector('.phone');
+var message = form.querySelector('.message');
+var fields = form.querySelectorAll('.field');
 
-function validateForm(event) {
-    event.preventDefault();
-    console.log('form is sent', event);
+function validateForm() {
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        console.log('form is sent');
+        console.log('name: ', names.value);
+        console.log('email: ', email.value);
+        console.log('phone: ', phone.value);
+        console.log('message: ', message.value);
+
+        for (var i = 0; i < fields.length; i++) {
+            if (!fields[i].value) {
+                console.log('field is blank', fields[i])
+            }
+        }
+    })
+
     if (!validateName() || !validatePhone() || !validateEmail()) {
         jsShow('submit-error');
         producePrompt('Виправте помилки, щоб відправити.', 'submit-error', 'red');
